@@ -3,7 +3,12 @@ import { BrowserRouter, Route} from 'react-router-dom';
 
 
 const PageOne = () => {
-    return <div>PageOne</div>;
+    return (
+        <div>
+            PageOne
+            <a href="/pagetwo">Navigate to PageTwo</a>
+        </div>
+    );
 };
 
 const PageTwo = () => {
@@ -11,6 +16,7 @@ const PageTwo = () => {
         <div>
             PageTwo
             <button>Click Me</button>
+            <a href="/">Navigate to PageOne</a>
         </div>
     );
 };
