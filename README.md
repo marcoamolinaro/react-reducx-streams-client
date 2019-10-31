@@ -70,4 +70,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 In this project:
 
-npm install --save react-router-dom
+In index.html add a script tag to Google API
+    <script src="https://apis.google.com/js/api.js">
+    </script>
+
+In index.html add a linkt to semantic-ui css:
+<link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+
+Install components:
+    npm install --save react-router-dom
+    npm install --save react-redux redux
+
+    Install Redux Dev Tools to Chrome or Firefox.
+        https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+    
+
