@@ -4,7 +4,7 @@ import GoogleAuth from './GoogleAuth';
 
 const Header = () => {
     return (
-        <div className="ui secundary pointing menu">
+        <div className="ui secondary pointing menu">
             <Link to="/" className="item">
                 Streamy
             </Link>
@@ -14,7 +14,8 @@ const Header = () => {
                 </Link>
                 <GoogleAuth />
             </div>
-        </div>);
+        </div>
+    );
 };
 
 export default Header;

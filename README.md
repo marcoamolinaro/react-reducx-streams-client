@@ -82,8 +82,12 @@ In index.html add a linkt to semantic-ui css:
 Install components:
     npm install --save react-router-dom
     npm install --save react-redux redux
+    npm install redux-form@8.1.0 
+        ## version 8.2.0 is the latest but has meny issues to install npm install --save react-form
+        
 
     Install Redux Dev Tools to Chrome or Firefox.
         https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
     
+
 
