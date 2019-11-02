@@ -89,5 +89,11 @@ Install components:
     Install Redux Dev Tools to Chrome or Firefox.
         https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
     
+    https://www.npmjs.com/package/json-server - Full fake REST API with zero coding
+
+    Install Axios and Redux-thunk
+        npm install --save axios redux-thunk
+
+    
 
 
