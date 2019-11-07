@@ -92,7 +92,10 @@ Install components:
     https://www.npmjs.com/package/json-server - Full fake REST API with zero coding
 
     Install Axios and Redux-thunk
-        npm install --save axios redux-thunk
+        npm install --save axios redux-thunk]
+
+    Install Lodash
+        npm install --save lodash
 
     
 
