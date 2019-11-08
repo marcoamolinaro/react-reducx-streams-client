@@ -28,13 +28,13 @@ export const createStream = formvalues => async dispatch => {
     dispatch({ type: CREATE_STREAM, payload: response.data});
 };
 
-export const fecthStreams = () => async dispatch => {
+export const fetchStreams = () => async dispatch => {
     const response = await streams.get('/streams');
 
     dispatch({ type: FETCH_STREAMS, payload: response.data});
 };
 
-export const fecthStream = id => async dispatch => {
+export const fetchStream = id => async dispatch => {
     const response = await streams.get(`/streams/${id}`);
 
     dispatch({ type: FETCH_STREAM, payload: response.data});
