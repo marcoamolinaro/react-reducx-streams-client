@@ -98,6 +98,10 @@ Install components:
         npm install --save lodash
 
     https://obsproject.com/
+
+    Install flv.js
+        npm install --save flv.js
+    
     
 
     
